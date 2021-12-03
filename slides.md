@@ -91,3 +91,10 @@ Enables serverless real-time chat, collaborative editing, video conferencing, pu
     - [When used to serve workers, no headers are set](https://github.com/cloudflare/wrangler/issues/2137)
   - [`wrangler@beta`](https://github.com/cloudflare/wrangler2) for serving pages with functions
     - Functions currently have a hard limit of 100,000 invocation requests per day, just use workers
+
+
+### Cloudflare Workers has Module and Service Worker Syntax
+- Only module syntax can be used with Cloudflare Workers Durable Objects
+- Most of the existing tooling/support is for service worker syntax, however
+
+See also: [developers.cloudflare.com/workers/cli-wrangler/configuration#build](https://developers.cloudflare.com/workers/cli-wrangler/configuration#build)
